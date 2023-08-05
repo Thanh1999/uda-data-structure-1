@@ -1,0 +1,12 @@
+- Task 0 Worst-Case Big-O Notation is O(1)
+
+- Task 1 Worst-Case Big-O Notation is O(n + m): n is the number of call records and m is the number of text records
+
+- Task 2 Worst-Case Big-O Notation is O(n + m): n is the number of call records and m is the number of unique phone numbers in the phones_and_times dictionary
+
+- Task 3: 
++ Part A Worst-Case Big-O Notation is O(n + m + o log o + o): create a list is O(n) - n is the number of records from the origin calls, create a set is O(m) - m is the number of records from the created list, sort is O(o log o) - o is the number of records from the created set and iterates through the sort set will be O(o) (so n > m > o)
+
++ Part B Worst-Case Big-O Notation is O(n + m): n is the number of call records used to create list_numbers and m is the number of records in the created list_numbers (so n > m)
+
+- Task 4 Worst-Case Big-O Notation is O(2n + m + o log o + o): n is the number of call records, m is the number of text records, sort is O(o log o) - o is the number of records from the set and iterates through the sort set will be O(o) so (n > o and m > o)
