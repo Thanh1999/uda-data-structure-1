@@ -25,8 +25,9 @@ def print_first_text():
     print('First record of texts, {} texts {} at time {}'.format(first_record[0], first_record[1], first_record[2]))
 
 def print_first_call():
-    first_record = calls[0]
-    print('Last record of calls, {} calls {} at time {}, lasting {} seconds'.format(first_record[0], first_record[1], first_record[2], first_record[3]))
+    # get the last item
+    last_record = calls[-1]
+    print('Last record of calls, {} calls {} at time {}, lasting {} seconds'.format(last_record[0], last_record[1], last_record[2], last_record[3]))
 
 print_first_text()
 print_first_call()
